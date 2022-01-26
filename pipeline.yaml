@@ -4,6 +4,8 @@ resources:
     source:
       uri: https://github.com/siva-gh-demo/concourse-nodejs-demo
       branch: main
+    webhook_token: 6KlD9Fq
+
   - name: node-image
     type: registry-image
     source:
@@ -13,7 +15,6 @@ resources:
 jobs:
   - name: build
     public: true
-    webhook_token: 6KlD9Fq
     plan:
       - get: node-image
       - get: repo
