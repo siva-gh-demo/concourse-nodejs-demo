@@ -13,6 +13,7 @@ resources:
 jobs:
   - name: build
     public: true
+    webhook_token: 6KlD9Fq
     plan:
       - get: node-image
       - get: repo
