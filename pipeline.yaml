@@ -2,7 +2,7 @@ resources:
   - name: repo
     type: git
     source:
-      uri: https://github.com/siva-gh-demo/concourse-nodejs-demo
+      uri: https://github.com/siva-gh-demo/siva-nodejs-demo
       branch: main
     webhook_token: 6KlD9Fq
 
